@@ -416,8 +416,8 @@
  *   998 : Dummy Table that ALWAYS reads 25°C or the temperature defined below.
  *   999 : Dummy Table that ALWAYS reads 100°C or the temperature defined below.
  */
-#define TEMP_SENSOR_0 1
-#define TEMP_SENSOR_BED 1
+#define TEMP_SENSOR_0 11
+#define TEMP_SENSOR_BED 11
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
@@ -750,7 +750,7 @@
 #define STEPS_KOEF_DRV8825 32
 #define STEPS_KOEF_A4988   16
 #define STEPS_KOEF_TMC     16
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 95 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 400, 98.11 }
 
 /**
  * Default Max Feed Rate (mm/s)
